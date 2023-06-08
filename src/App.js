@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Board from "./components/board";
+import Game from "./components/game";
 
-export default function Game() {
-  return new Board();
+export default function TicTacToe() {
+  return <Game />;
 }
